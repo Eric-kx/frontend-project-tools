@@ -11,7 +11,7 @@ export const useUserStore = defineStore('big-user', () => {
       return {
         token, setToken, removeToken
       }
-},{
+},{ 
   persist: true
 }
 )
