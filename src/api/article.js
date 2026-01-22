@@ -23,3 +23,5 @@ export const artGetDetailService = (id) => request.get('/my/article/info', {
 })
 //更新文章
 export const artEditService = (data) => request.put('/my/article/info', data)
+
+
